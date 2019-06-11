@@ -1,0 +1,73 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+.index{
+    width: 1000px;
+    margin:0 auto;
+}
+.tab{
+    display: inline-block;
+    width: 100px;
+    text-decoration: none;
+    color:#157c8c; 
+    border:1px solid #157c8c;
+    border-radius: 3px;
+    line-height: 30px;
+    margin:0 10px;
+}
+.tab:hover{
+    text-decoration: none;
+}
+.tab.router-link-exact-active{
+    background-color: #157c8c;
+    color: #fff;
+}
+.index-body{
+    width: 100%;
+    margin-top: 30px;
+}
+.my-msg{
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: left;
+    padding-left: 7px;
+}
+.my-msg-detial{Failed to compile.
+    width: 100%;
+}
+.my-msg span{
+    display: inline-block;
+    margin:0 10px;
+}
+.my-msg-detial span:nth-child(1){
+    margin-left: 0
+}
+.my-msg-title{
+    width: 100%;
+    color: #157c8c;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.my-table{
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.my-table th,.my-table td{
+     border: 1px solid #e1e1e1;
+     padding: 5px 10px;
+     text-align: center;
+     vertical-align: middle;
+}
+.my-table td span{
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+}
