@@ -27,7 +27,7 @@ const routes = [
 // 你还可以传入别的参数，不过在这里尽量简单化就可以了
 const router = new VueRouter({
   routes, 
-  mode: 'history'
+  // mode: 'history'
 })
 //实例化Vue实例
 new Vue({

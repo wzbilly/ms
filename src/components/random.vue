@@ -181,7 +181,7 @@ export default {
                 },
                 yAxis: {},
                 series: [{
-                    name: '销量',
+                    name: '能力值',
                     type: 'bar',
                     data: skillnum
                 }]
@@ -216,7 +216,7 @@ export default {
                 },
                 yAxis: {},
                 series: [{
-                    name: '销量',
+                    name: '能力值',
                     type: 'bar',
                     data: skillnum
                 }]
